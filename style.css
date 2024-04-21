@@ -201,7 +201,7 @@ a {
     border: 1px solid #000;
 }
 
-.search-input-container {
+.button-container + .search-input-container {
     position: relative;
     width: 605px;
     border-radius: 50px;
@@ -225,6 +225,12 @@ a {
     left: 20px;
     top: 50%;
     transform: translateY(-50%);
+    color: #000;
+}
+
+.search-input:focus + .search-icon {
+    color: #353434;
+    font-size: 20px;
 }
 
 @media only screen and (max-width: 992px){
